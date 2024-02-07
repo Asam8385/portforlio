@@ -33,7 +33,7 @@ export default function Project({
       className="mb-3 sm:mb-8 last:mb-0"
     >
 <a href={Url} className="hover:bg-gray-100 "  >
-<div className="max-w-md mx-auto dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700  rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+<div className="max-w-md mx-auto dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700  rounded-xl shadow-2xl overflow-hidden md:max-w-2xl">
   <div className="md:flex">
     <div className=" lg:w-[50vw] lg:h-[50vh]">
       <Image className="h-48 lg:w-[50vw] w-full object-cover md:h-full md:w-48" src={imageUrl} alt="Modern building architecture"/>
