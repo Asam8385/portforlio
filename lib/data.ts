@@ -8,6 +8,8 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import healthy from "@/public/healthy.png"
 import littlelemon from "@/public/littlelemon.png"
+import portfolio from "@/public/portfolio.png"
+import haxtreme from "@/public/haxtreme.jpg"
 import underdev from "@/public/underdev.jpg"
 
 
@@ -77,6 +79,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Doctor Booking App(Entirely different)",
+    description:
+      "This is a two semester project. I took all the chellanges In doctor booking and personal healthcare.",
+    tags: ["Flutter", "react", "Spring Boot", "deep learning", "django", "MongoDb", "Machine Learning", "video streaming"],
+    imageUrl: underdev,
+    Url: "",
+  },
+  {
     title: "Personal HealthCareApp",
     description:
       "this is an mobiel development project using Flutter. google palm 2 Generative AI is introduced to enhance user experience.",
@@ -85,12 +95,13 @@ export const projectsData = [
     Url: "https://github.com/infas01/healthy-medical_app/tree/Asam2",
   },
   {
-    title: "Doctor Booking App(Entirely different)",
+    title: "Portfolio Website",
     description:
-      "This is a two semester project. I took all the chellanges In doctor booking and personal healthcare.",
-    tags: ["Flutter", "react", "Spring Boot", "deep learning", "django", "MongoDb", "Machine Learning", "video streaming"],
-    imageUrl: underdev,
-    Url: "",
+      "Explore a showcase of my work as a Computer engineer undergraduate. \
+       my portfolio highlights my passion for creating impactful digital experiences.",
+    tags: ["Next.js", "React", "motion frame", "deploy"],
+    imageUrl: portfolio,
+    Url: "https://asamsm.vercel.app/",
   },
   {
     title: "Maachine learning Practice Website",
@@ -126,7 +137,7 @@ export const AchivementData = [
       "This is a Coding competition conducted by faculty of engieering, University of Ruhuna. More than 100 team was participated.\
       among these 100 team we could secure 3rd place with 726 points",
     tags: ["Data Structure","Algorithm", "Coding" ],
-    imageUrl: mllearn,
+    imageUrl: haxtreme,
     Url: "https://www.linkedin.com/posts/mohamed-asam-733768203_codeabrconquerers-haxtremeabr2-ieee-activity-7158715262123286528-noIR?utm_source=share&utm_medium=member_desktop",
   },
   {
