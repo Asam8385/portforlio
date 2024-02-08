@@ -47,7 +47,7 @@ export default function Intro() {
               height="200"
               quality="100"
               priority={true}
-              className="h-30 w-30 rounded-full object-cover"
+              className="h-30 w-30 rounded object-cover"
             />
           </motion.div>
 
