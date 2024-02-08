@@ -39,7 +39,7 @@ export default function Project({
       <Image className="h-48 lg:w-[50vw] w-full object-cover md:h-full md:w-48" src={imageUrl} alt="Modern building architecture"/>
     </div>
     <div className="p-8">
-      <h3 className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{title}</h3>
+      <h3 className="uppercase tracking-wide text-sm text-yellow-300 font-semibold">{title}</h3>
       <p className="mt-2 text-slate-500">{description}</p>
       <ul className="flex flex-wrap mt-4 gap-2 ">
             {tags.map((tag, index) => (
