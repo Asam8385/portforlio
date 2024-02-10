@@ -47,7 +47,7 @@ export default function Intro() {
               height="200"
               quality="100"
               priority={true}
-              className="h-30 w-30 rounded object-cover"
+              className="h-30 w-30 rounded-full object-cover"
             />
           </motion.div>
 
@@ -72,7 +72,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'am Asam.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'am Asam.</span> I'm an{" "}
         <span className="font-bold">Engineering Undergraduate</span> with{" "}
         <span className="font-bold">Strong Fundamental in Software development and Data Science.
         </span> I enjoy
