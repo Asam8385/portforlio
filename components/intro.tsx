@@ -41,7 +41,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/asam4.jpg"
+              src="/asam3.png"
               alt="mohamed asam"
               width="300"
               height="200"
