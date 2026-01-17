@@ -68,7 +68,7 @@ export default function Contact() {
               <p className="text-gray-400 text-sm mb-4">Find me on social media</p>
               <div className="flex gap-4">
                 <a 
-                  href="https://www.linkedin.com/in/mohamed-asam" 
+                  href="https://www.linkedin.com/in/mohamed-asam-733768203/" 
                   target="_blank"
                   className="p-3 bg-slate-700/50 rounded-xl text-gray-400 hover:text-blue-400 hover:bg-slate-700 transition-all"
                 >

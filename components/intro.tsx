@@ -149,10 +149,10 @@ export default function Intro() {
             >
               <span className="text-sm text-gray-500">Find me on:</span>
               {[
-                { href: "https://www.linkedin.com/in/mohamed-asam", icon: BsLinkedin, color: "hover:text-blue-400" },
+                { href: "https://www.linkedin.com/in/mohamed-asam-733768203/", icon: BsLinkedin, color: "hover:text-blue-400" },
                 { href: "https://github.com/Asam8385", icon: FaGithubSquare, color: "hover:text-gray-300" },
-                { href: "https://leetcode.com/", icon: SiLeetcode, color: "hover:text-orange-400" },
-                { href: "https://www.hackerrank.com/", icon: SiHackerrank, color: "hover:text-green-400" },
+                { href: "https://leetcode.com/u/subairasam8733260/", icon: SiLeetcode, color: "hover:text-orange-400" },
+                { href: "https://www.hackerrank.com/profile/Eg_2020_3833", icon: SiHackerrank, color: "hover:text-green-400" },
               ].map((social, i) => (
                 <a
                   key={i}
