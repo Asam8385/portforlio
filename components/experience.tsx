@@ -8,6 +8,8 @@ import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { FaCalendar, FaMapMarkerAlt, FaBriefcase } from "react-icons/fa";
 
+type ExperienceItem = (typeof experiencesData)[number];
+
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
 
@@ -20,7 +22,7 @@ export default function Experience() {
         <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 hidden sm:block"></div>
         
         <div className="space-y-12">
-          {experiencesData.map((item, index) => (
+          {(experiencesData as readonly ExperienceItem[]).map((item, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 50 }}
